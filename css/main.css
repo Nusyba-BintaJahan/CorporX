@@ -1,0 +1,1144 @@
+/* common function starts */
+* {
+    padding: : 0;
+    margin: : 0;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.blank{
+    margin: 0 20px;
+}
+
+.blank_left{
+    margin-left: 10px;
+}
+
+.blank_right{
+    margin-right: 30px;
+}
+
+.gap{
+    margin: 0 10px;
+}
+
+.gap-right{
+    margin-right: 15px;
+}
+
+.gap-left{
+    margin-left: 10px;
+}
+/* common function ends */
+
+/* menu starts */
+
+.menu {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+
+}
+
+.menu .menu_content {
+
+    width: 970px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.menu .menu_content .menu_logo {
+    width: 200px;
+    height: 60px;
+    float: left;
+}
+
+.menu .menu_content .menu_logo img {
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.menu .menu_content .menu_details {
+    width: 760px;
+    height: 60px;
+    float: left;
+}
+
+.menu .menu_content .menu_details ul {
+    list-style-type: none;
+}
+
+.menu .menu_content .menu_details ul li {
+    float: left;
+    position: relative;
+}
+
+.menu .menu_content .menu_details ul li a {
+    color: #cec5c5;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 60px;
+    display: block;
+    text-transform: uppercase;
+    padding: 0 20px;
+    transition: all linear 0.5s;
+}
+
+.menu .menu_content .menu_details ul li:hover > a {
+    color: #080808;
+    background: #c8b7dd;
+}
+
+.menu .menu_content .menu_details ul li ul {
+    position: absolute;
+    top: 100px;
+    transition: all linear 0.5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.menu .menu_content .menu_details ul li:hover > ul {
+    top: 60px;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.menu .menu_content .menu_details ul li ul li {
+    float: none;
+    position: relative;
+}
+
+.menu .menu_content .menu_details ul li ul li ul {
+    position: absolute;
+    left: 100%;
+}
+
+.menu .menu_content .menu_details ul li ul li:hover > ul {
+    top: 0;
+}
+
+.menu .menu_content .menu_details ul li ul li a {
+    white-space: nowrap;
+    background: #fafafa;
+
+}
+
+
+
+
+
+/* menu starts */
+
+
+/* Banner starts */
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    background : url(../Images/banner.jpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .banner_layout {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right , rgba(7, 7, 147, 0.85),rgb(156, 166, 226));
+}
+.banner .banner_layout .banner_content {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+}
+.banner .banner_layout .banner_content .banner_text {
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+.banner .banner_layout .banner_content .banner_text h4 {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+.banner .banner_layout .banner_content .banner_text h1  {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.banner .banner_layout .banner_content .banner_text p {
+    color: #ffffff;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.banner .banner_layout .banner_content .banner_text ul li {
+    color: #ffffff;
+    margin: 10px 0;
+}
+.banner .banner_layout .banner_content .banner_space {
+    width: 360px;
+    height: 600px;
+    float: left;
+}
+
+
+
+/* Banner Ends */
+
+/* About Starts */
+ 
+.about {
+    width: 100%;
+    height: 600px;
+}
+.about .about_content {
+    width: 950px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+.about .about_content .about_video {
+    width: 500px;
+    height: 600px;
+    float: left;
+}
+.about .about_content .about_video iframe {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.about .about_content .about_us {
+    width: 450px;
+    height: 600px;
+    float: left;
+}
+.about .about_content .about_us .introduction {
+    width: 450px;
+    height: 200px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.about .about_content .about_us .introduction h1 {
+    color: black;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.about .about_content .about_us .introduction p {
+    color: #575454;
+
+}
+.about .about_content .about_us .options {
+    width: 450px;
+    height: 70px;
+}
+.about .about_content .about_us .options .one {
+    width: 150px;
+    height: 70px;
+    float: left;
+}
+.about .about_content .about_us .options .two {
+    width: 150px;
+    height: 70px;
+    float: left;
+    
+}
+.about .about_content .about_us .options .three {
+    width: 150px;
+    height: 70px;
+    float: left;
+    
+}
+.about .about_content .about_us .options .one a {
+    color: #250d72;
+    font-size: 20px;
+    line-height: 100px;
+    display: block;
+    text-transform: capitalize;
+    transition: all linear 0.4s;
+}
+.about .about_content .about_us .options .two a {
+    color: #250d72;
+    font-size: 20px;
+    line-height: 100px;
+    display: block;
+    text-transform: capitalize;
+    transition: all linear 0.4s;
+}
+.about .about_content .about_us .options .three a {
+    color: #250d72;
+    font-size: 20px;
+    line-height: 100px;
+    display: block;
+    text-transform: capitalize;
+    transition: all linear 0.4s;
+    
+}
+.about .about_content .about_us .options .one a:hover {
+    color: #a22626;
+    text-decoration: underline;
+}
+.about .about_content .about_us .options .two a:hover {
+    color: #a22626;
+    text-decoration: underline;
+}
+.about .about_content .about_us .options .three a:hover {
+    color: #a22626;
+    text-decoration: underline;
+}
+
+.about .about_content .about_us .details {
+    width: 450px;
+    height: 300px;
+}
+
+.about .about_content .about_us .details p {
+    color: #555151;
+}
+
+.about .about_content .about_us .details ul li {
+    color: #555151;
+    margin: 5px 0;
+}
+
+.about .about_content about_space {
+    width: 50px;
+    height: 600px;
+    float: left;
+}
+
+
+/* About Ends */
+
+
+/* Service Starts */
+.service {
+    width: 100%;
+    height: 600px;
+    background-color: #f1f8fc;
+}
+
+.service .service_content {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+}
+.service .service_content .service_description {
+    width: 960px;
+    height: 100px;
+}
+.service .service_content .service_description .description {
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+}
+.service .service_content .service_description .description h1 {
+    color: #080808;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+.service .service_content .service_description .description p {
+    color: #676161;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+}
+.service .service_content .row1 {
+    width: 960px;
+    height: 250px;
+}
+.service .service_content .row1 .table1 {
+    width: 320px;
+    height: 250px;
+    float: left;
+    background: url(../Images/table1.png);
+    background-position:50% 10%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.service .service_content .row1 .table1 h3 {
+    color: #0f0d0d;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    box-sizing:border-box;
+}
+.service .service_content .row1 .table1 p {
+    color: #534e4e;
+    text-align: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.service .service_content .row1 .table2 {
+    width: 320px;
+    height: 250px;
+    float: left;
+    background: url(../Images/table1.png);
+    background-position:50% 10%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.service .service_content .row1 .table2 h3 {
+    color: #0f0d0d;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    box-sizing:border-box;
+}
+.service .service_content .row1 .table2 p {
+    color: #534e4e;
+    text-align: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+  
+.service .service_content .row1 .table3 {
+    width: 320px;
+    height: 250px;
+    float: left;
+    background: url(../Images/table1.png);
+    background-position:50% 10%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.service .service_content .row1 .table3 h3 {
+    color: #0f0d0d;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    box-sizing:border-box;
+}
+.service .service_content .row1 .table3 p {
+    color: #534e4e;
+    text-align: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+
+
+.service .service_content .row2 {
+    width: 960px;
+    height: 250px;
+}
+.service .service_content .row2 .table4 {
+    width: 320px;
+    height: 250px;
+    float: left;
+    background: url(../Images/table1.png);
+    background-position:50% 10%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.service .service_content .row2 .table4 h3 {
+    color: #0f0d0d;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    box-sizing:border-box;
+}
+.service .service_content .row2 .table4 p {
+    color: #534e4e;
+    text-align: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.service .service_content .row2 .table5 {
+    width: 320px;
+    height: 250px;
+    float: left;
+    background: url(../Images/table1.png);
+    background-position:50% 10%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.service .service_content .row2 .table5 h3 {
+    color: #0f0d0d;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    box-sizing:border-box;
+}
+.service .service_content .row2 .table5 p {
+    color: #534e4e;
+    text-align: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+  
+.service .service_content .row2 .table6 {
+    width: 320px;
+    height: 250px;
+    float: left;
+    background: url(../Images/table1.png);
+    background-position:50% 10%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.service .service_content .row2 .table6 h3 {
+    color: #0f0d0d;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    box-sizing:border-box;
+}
+.service .service_content .row2 .table6 p {
+    color: #534e4e;
+    text-align: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+/* Service Ends */
+
+    
+/* Business Starts */
+.business {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    background: url(../Images/business.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.business .business_parts {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to right ,rgba(56, 56, 183, 0.85),rgba(203, 82, 156, 0.85));
+    background-attachment: fixed;
+    
+}
+.business .business_parts .business_description {
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+}
+.business .business_parts .business_description .para {
+    width: 960px;
+    height: 150px;
+}
+.business .business_parts .business_description .para h1 {
+    color: beige;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+.business .business_parts .business_description .para p
+{
+   color: beige;
+   font-size: 20px;
+   text-align: center;
+   padding: 0 auto;
+   box-sizing: border-box;
+       
+}
+.business .business_parts .business_description .example {
+    width: 960px;
+    height: 350px;
+}
+
+.business .business_parts .business_description .example .example_1 {
+    width: 225px;
+    height: 150px;
+    float: left;
+    border: 1px dashed white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.business .business_parts .business_description .example .example_1 h3 {
+    color: beige;
+    text-transform: capitalize;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
+.business .business_parts .business_description .example .example_1 p {
+    color: beige;
+    text-align: center;
+}
+
+.business .business_parts .business_description .example .example_2 {
+    width: 225px;
+    height: 150px;
+    float: left;
+    border: 1px dashed white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.business .business_parts .business_description .example .example_2 h3 {
+    color: beige;
+    text-transform: capitalize;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
+.business .business_parts .business_description .example .example_2 p {
+    color: beige;
+    text-align: center;
+}
+.business .business_parts .business_description .example .example_3 {
+    width: 225px;
+    height: 150px;
+    float: left;
+    border: 1px dashed white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.business .business_parts .business_description .example .example_3 h3 {
+    color: beige;
+    text-transform: capitalize;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
+.business .business_parts .business_description .example .example_3 p {
+    color: beige;
+    text-align: center;
+}
+
+.business .business_parts .business_description .example .example_4 {
+    width: 225px;
+    height: 150px;
+    float: left;
+    border: 1px dashed white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.business .business_parts .business_description .example .example_4 h3 {
+    color: beige;
+    text-transform: capitalize;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
+.business .business_parts .business_description .example .example_4 p {
+    color: beige;
+    text-align: center;
+}
+
+/* Business Ends */
+
+
+
+
+/* Process Starts */
+
+.process {
+    width: 100%;
+    height: 600px;
+    background-color: #ece4ef;
+}
+
+.process .process_description {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    
+}
+
+.process .process_description .process_introduction {
+    width:960px;
+    height: 200px;
+    font-size: 20px;
+}
+.process .process_description .process_introduction h1 {
+    color:#030303;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.process .process_description .process_introduction p {
+    font-size: 20px;
+    color: #484747;
+    line-height: 25px;
+    box-sizing: border-box;
+    padding-right: 400px;
+}
+.process .process_description .process_steps {
+    width: 960px;
+    height: 400px;
+}
+.process .process_description .process_steps .step {
+    width: 225px;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 30px;
+    position: relative;
+}
+.process .process_description .process_steps .step h3 {
+    color: #000000;
+    text-transform: capitalize;
+    padding-top: 160px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.process .process_description .process_steps .step p {
+    line-height: 22px;
+}
+.process .process_description .process_steps .step .tableA {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:50px;
+    left:0;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #151071;
+    color: #f7f7f7;
+}
+.process .process_description .process_steps .step .tableB {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    left:60px;
+    top:30px;
+    border-radius: 50%;
+    text-align: center;
+}
+/* Process Ends */
+
+
+
+
+
+/* Clients Starts */
+  
+.client {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.client .client_content {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: white;
+}
+.client .client_content .client_description {
+    width: 960px;
+    height: 200px;
+}
+.client .client_content .client_description h1 {
+    color: #070707;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.client .client_content .client_description p {
+    color:#3b3a3a;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+.client .client_content .client_opinion {
+    width: 960px;
+    height: 400px;
+}
+.client .client_content .client_opinion .opinion_1 {
+    width:300px;
+    height: 200px;
+    background-color: #faf7f7;
+    float: left;
+    position: relative;
+}
+.client .client_content .client_opinion .opinion_1 p {
+    line-height: 25px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.client .client_content .client_opinion .opinion_1 h4 {
+    padding-left: 70px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.client .client_content .client_opinion .opinion_1 .client_box {
+    width:50px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    border-radius: 50%;
+    background: url(../Images/client.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.client .client_content .client_opinion .opinion_2 {
+    width:300px;
+    height: 200px;
+    background-color: #faf7f7;
+    float: left;
+    position: relative;
+}
+.client .client_content .client_opinion .opinion_2 p {
+    line-height: 25px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.client .client_content .client_opinion .opinion_2 h4 {
+    padding-left: 70px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.client .client_content .client_opinion .opinion_2 .client_box {
+    width:50px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    border-radius: 50%;
+    background: url(../Images/client.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.client .client_content .client_opinion .opinion_3 {
+    width:300px;
+    height: 200px;
+    background-color: #faf7f7;
+    float: left;
+    position: relative;
+}
+.client .client_content .client_opinion .opinion_3 p {
+    line-height: 25px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.client .client_content .client_opinion .opinion_3 h4 {
+    padding-left: 70px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.client .client_content .client_opinion .opinion_3 .client_box {
+    width:50px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    border-radius: 50%;
+    background: url(../Images/client.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Clients Ends */
+
+
+
+
+
+
+/* News Starts */
+
+
+.news {
+    width: 100%;
+    height: 600px;
+    background-color: #e6dfe6;
+}
+.news .news_content {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+}
+.news .news_content .news_introduction {
+    width: 960px;
+    height: 200px;
+}
+.news .news_content .news_introduction h1 {
+    color: black;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 65px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.news .news_content .news_introduction p {
+    font-size: 18px;
+    line-height: 20px;
+}
+.news .news_content .news_example {
+    width: 960px;
+    height: 400px;
+}
+.news .news_content .news_example .news_1 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #f6f6f6;
+}
+.news .news_content .news_example .news_1 .details {
+    width: 300px;
+    height: 100px;
+    background-color: #f6f6f6;
+}
+.news .news_content .news_example .news_1 .details h3 {
+    color:#1b1b90;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.news .news_content .news_example .news_1 .details p {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.news .news_content .news_example .news_1 .theme_tag {
+    width: 300px;
+    height: 200px;
+}
+.news .news_content .news_example .news_1 .theme_tag h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #161d53;
+}
+.news .news_content .news_example .news_1 .theme_tag p {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.news .news_content .news_example .news_2 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #f6f6f6;
+} 
+.news .news_content .news_example .news_2 .details {
+    width: 300px;
+    height: 100px;
+    background-color: #f6f6f6;
+}
+.news .news_content .news_example .news_2 .details h3 {
+    color:#1b1b90;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.news .news_content .news_example .news_2 .details p {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.news .news_content .news_example .news_2 .theme_tag {
+    width: 300px;
+    height: 200px;
+}
+.news .news_content .news_example .news_2 .theme_tag h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #161d53;
+}
+.news .news_content .news_example .news_2 .theme_tag p {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.news .news_content .news_example .news_3 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: #f6f6f6;
+}
+.news .news_content .news_example .news_3 .details {
+    width: 300px;
+    height: 100px;
+    background-color: #f6f6f6;
+}
+.news .news_content .news_example .news_3 .details h3 {
+    color:#1b1b90;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.news .news_content .news_example .news_3 .details p {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.news .news_content .news_example .news_3 .theme_tag {
+    width: 300px;
+    height: 200px;
+}
+.news .news_content .news_example .news_3 .theme_tag h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #161d53;
+}
+.news .news_content .news_example .news_3 .theme_tag p {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+/* News Ends */
+
+
+
+
+
+
+/* Contact Starts */
+
+.contact {
+    width: 100%;
+    height: 550px;
+}
+.contact .contact_content {
+    width: 100%;
+    height: 550px;
+}
+.contact .contact_content .contact_introduction {
+    width:80%;
+    height: 180px;
+    margin: 0 auto;
+    background-color: white;
+    float: left;
+}
+.contact .contact_content .contact_introduction h2 {
+    color: black;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-left: 60px;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+.contact .contact_content .contact_introduction p {
+    color: #3e3d3d;
+    padding-left: 60px;
+    font-size: 15px;
+}
+.contact .contact_content .image {
+    width: 20%;
+    height: 180px;
+    background-color: white;
+    margin: 0 auto;
+    float: left;
+}
+.contact .contact_content .image .image_content {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.contact .contact_content .address {
+    widows: 100%;
+    height: 500px;
+    background-image: linear-gradient(to right , #0e0e93 , #d91470);
+}
+.contact .contact_content .address .address_content {
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+.contact .contact_content .address .address_content .last {
+    width: 180px;
+    height: 300px;
+    float: left;
+}
+
+.contact .contact_content .address .address_content .last h4 {
+    padding-top: 80px;
+    padding-bottom: 15px;
+    color: white;
+    box-sizing: border-box;
+}
+.contact .contact_content .address .address_content .last ul li {
+    line-height: 25px;
+    color: white;
+}
+
+
+.contact .contact_content .copyright {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.contact .contact_content .copyright .content {
+    width: 80%;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    float: left;
+}
+
+/* Contact Ends */
+
+
+
+
+
+
+
+
+
+
+
+
